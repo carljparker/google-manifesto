@@ -1,0 +1,146 @@
+#
+# Note that git will detect and call out files even if they 
+# have the hidden attribute set on Windows.
+#
+# Compiled source #
+###################
+*.com
+*.class
+*.dll
+*.exe
+*.obj
+*.pdb
+*.o
+*.so
+
+
+# Gen'd Files #
+###############
+# 
+# Most HTML files are gen'd using pandoc
+# Those that aren't we can add using -f
+#
+*.htm
+*.html
+#
+# A tex file is usually present because I gen'd it from markdown. If, in
+# the unlikely event that I actually authored a text file, I will add
+# it using `-f`.
+# 
+*.tex
+
+
+# Packages #
+############
+#
+# it's better to unpack these files and commit the raw source
+# git has its own built in compression methods
+#
+*.7z
+*.dmg
+*.gz
+*.iso
+*.jar
+*.rar
+*.tar
+*.war
+*.zip
+
+# Help Files, Ebooks #
+######################
+*.chm
+*.chi
+*.epub
+*.mobi
+*.pdf
+*.swf
+
+# Office documents   #
+######################
+*.ppt*
+*.doc*
+*.xls*
+
+# Logs and databases #
+######################
+*.log
+*.sql
+*.sqlite
+
+# OS generated files #
+######################
+.DS_Store*
+ehthumbs.db
+Icon?
+Thumbs.db
+
+# Temp & auxillary files #
+##########################
+~*
+*~
+*.bak
+*.swp
+Session.vim
+_viminfo
+pwsafe.psafe3.plk
+pwsafe.plk
+pwsafe.ibak
+
+# IDE Config, History #
+#######################
+*.vpwhist
+*vpj
+*vpw
+*vtg
+*.suo
+*.fsproj.FileListAbsolute.txt
+*.tags
+*.cache
+AwsCredentials.*
+
+# Eclipse #
+###########
+#
+# The following are for eclipse, which I seldom use
+# If I start to use eclipse in the future, which i probably should
+# then I can delete these. In the meantime, I can always add these 
+# files explicitly
+#
+*.classpath
+*.settings
+*.project
+
+# Immutable Binary Files #
+##########################
+*.pem
+
+# Latex Output Files #
+######################
+*.dvi
+*.aux
+
+# Image Files #
+###############
+*.png
+*.jpg
+
+# Media Files #
+###############
+*.mp4
+
+# Xcode Workspace-Project Files #
+#################################
+UserInterfaceState.xcuserstate
+WorkspaceSettings.xcsettings
+*.xccheckout
+
+# R Language #
+##############
+*.RData
+*.Rhistory
+*.Rout
+#
+# R saved ML model
+# 
+*.rda
+
