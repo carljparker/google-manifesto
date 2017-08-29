@@ -22,6 +22,12 @@ Finally, note that James Damore now has his own site where he publishes
 
 <https://firedfortruth.com/>
 
+**Note** GitHub has native PDF rendering. However, if you render the
+document at the GitHub cite, you will not be able to following the
+hyperlinks in the document. To follow the hyperlinks, download the
+document and render it using a PDF viewer such as the `preview` app on
+Mac OSX.
+
 
 ** END **
 
